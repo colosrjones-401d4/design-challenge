@@ -1,0 +1,21 @@
+@mixin borderRadius($radius){
+  border-radius: $radius;
+}
+
+@mixin flex(){
+  display: flex;
+}
+
+//shorthand for flex-direction and flex-wrap
+@mixin flex-flow($direction, $wrap ){
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@mixin justify-content($justify){
+  justify-content: $justify;
+}
+
+@mixin center(){
+  text-align: center;
+}
