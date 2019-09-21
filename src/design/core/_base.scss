@@ -1,0 +1,8 @@
+body{
+  background-color: $rootColor;
+  border-color: $accentColor;
+  @include flex();
+  @include center();
+  @include flex-flow(row, wrap);
+  margin: $space;
+}
