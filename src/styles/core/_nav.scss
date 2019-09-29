@@ -1,0 +1,21 @@
+@mixin nav() {
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+
+    li {
+      cursor: pointer;
+      padding: 5px 15px;
+      transition: ease 1s;
+      border-radius: 3px;
+    }
+
+    li:hover {
+      background: $rootColor;
+    }
+  }
+}
+

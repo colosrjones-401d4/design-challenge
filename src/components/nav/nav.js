@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './nav.scss';
+import '../../styles/core/_nav.scss';
 
 const Nav = props => {
   return <nav>{props.children}</nav>;

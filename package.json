@@ -1,14 +1,15 @@
 {
   "name": "design-challenge-base",
   "version": "1.0.0",
-  "description": "",
+  "description": "design-challenge",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-router-dom": "5.0.0",
-    "react-scripts": "2.1.8"
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.1.8"
   },
   "devDependencies": {
     "typescript": "3.3.3"
@@ -24,5 +25,15 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colosrjones-401d4/design-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colosrjones-401d4/design-challenge/issues"
+  },
+  "homepage": "https://github.com/colosrjones-401d4/design-challenge#readme"
 }

@@ -18,7 +18,7 @@ import Modal from '../components/modal';
 
 // Core
 // Mixins, Base, Vars, Mobile Defs
-import '../design/design.scss';
+import '../styles/design.scss';
 
 const menuItems = [
   { name: 'Forms', link: '/forms', component: Form },
