@@ -1,6 +1,7 @@
 import React from 'react';
 
-import './form.scss';
+import '../../styles/core/_form.scss';
+import './form.scss'
 
 const handleSubmit = e => e.preventDefault();
 
@@ -179,9 +180,9 @@ const Form = props => {
         </label>
       </fieldset>
       <fieldset>
-        <button>Button</button>
-        <input type="submit" value="Submit" />
-        <input type="reset" value="Reset" />
+        <legend>Button</legend>
+        <button><input type="submit" value="Submit" /></button>
+        <button><input type="reset" value="Reset" /></button>
       </fieldset>
     </form>
   );

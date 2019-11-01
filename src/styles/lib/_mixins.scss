@@ -1,0 +1,20 @@
+@mixin borderRadius($radius) {
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin flex() {
+}
+
+@mixin center() {
+  text-align: center;
+  margin: 0 auto;
+}
+
+@mixin shadowedBorder() {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -mox-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
