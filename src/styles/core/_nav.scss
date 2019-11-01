@@ -3,14 +3,17 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    font-weight: 800;
-    letter-spacing: 1.2px;
+    font-weight: 500;
+    letter-spacing: 1px;
 
     li {
       cursor: pointer;
-      padding: 5px 15px;
+      padding: 7px 17px;
       transition: ease 1s;
-      border-radius: 3px;
+      border-radius: 5px;
+      background-color: darkolivegreen;
+      color: white;
+      border: 2px solid black;
     }
 
     li:hover {

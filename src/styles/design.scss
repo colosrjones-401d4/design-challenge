@@ -5,6 +5,7 @@
 @import './core/header';
 @import './core/footer';
 @import './core/nav';
+@import './core/form';
 
 nav {
   @include nav();
@@ -17,7 +18,10 @@ nav {
 #toggle {
   display: none;
 }
-
+ 
+form {
+  @include form();
+}
 
 
 
