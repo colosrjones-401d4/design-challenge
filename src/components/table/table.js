@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './table.scss';
+import '../../styles/core/_table.scss';
 
 // Default Data Shape / Contract
 const defaultData = {
@@ -17,7 +17,7 @@ const Table = props => {
   const data = props.data || defaultData;
   return (
     <table className={props.type}>
-      <thead>
+      <thead class="container">
         <tr>
           {data.header &&
             data.header.map((title, i) => <th key={i}>{title}</th>)}

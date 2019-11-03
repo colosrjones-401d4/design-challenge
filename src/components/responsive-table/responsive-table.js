@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './responsive-table.scss';
+import '../../styles/core/_responsive-table.scss';
 
 // https://css-tricks.com/accessible-simple-responsive-tables/
 
