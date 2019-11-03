@@ -1,0 +1,45 @@
+@mixin section(){
+    &.column {
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: $rootColor;
+      color: white;
+      border: 3px black;
+    }
+
+    :hover &.column {
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: wheat;
+      color:black;
+      border: 3px black;
+    }
+    header{
+      display: block;
+      background-color: sandybrown;
+    }
+    div{
+      background-color: slateblue;
+    }
+    footer{
+      background-color: tomato;
+    }
+  
+    &.row {
+      display:flex;
+      flex-direction:column;
+  
+      > div {
+        align-items: flex-start;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-around;
+  
+        > * {
+          flex:1;
+        }
+      }
+    }
+  } 

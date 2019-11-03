@@ -6,6 +6,8 @@
 @import './core/footer';
 @import './core/nav';
 @import './core/form';
+@import './core/table';
+@import '/core/responsive-table';
 
 nav {
   @include nav();
@@ -21,6 +23,13 @@ nav {
  
 form {
   @include form();
+}
+
+table {
+  @include table();
+}
+section {
+  @include section();
 }
 
 
