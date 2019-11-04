@@ -12,7 +12,7 @@ const Card = props => {
     <div className={classes}>
       <header>{content.title}</header>
       <figure>
-        <img src={content.media.src} />
+        <img src={content.media.src}alt='' />
         <figcaption>{content.media.title}</figcaption>
       </figure>
       <p>{content.copy}</p>
@@ -33,7 +33,6 @@ Card.defaultProps = {
     title: 'Card Title',
     media: {
       src: 'http://placehold.it/200x200',
-      title: 'An Image',
     },
     copy: 'Some interesting content here',
     links: [

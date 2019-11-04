@@ -5,7 +5,7 @@ import './grid.scss';
 const Grid = props => {
   return (
     <section>
-      <div>Grid Content</div>
+      <div>{props.children}Grid Content</div>
     </section>
   );
 };
