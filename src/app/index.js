@@ -21,6 +21,7 @@ import Modal from '../components/modal';
 import '../styles/design.scss';
 
 const menuItems = [
+  { name: 'Grid', link: '/grid', component: Grid },
   { name: 'Forms', link: '/forms', component: Form },
   { name: 'List', link: '/list', component: List },
   { name: 'Link', link: '/link', component: Link },
