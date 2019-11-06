@@ -8,6 +8,7 @@
 @import './core/form';
 @import './core/table';
 @import '/core/responsive-table';
+@import '/core/drawer';
 
 nav {
   @include nav();
@@ -32,6 +33,9 @@ section {
   @include section();
 }
 
+div {
+  @include drawer();
+}
 
 
 
