@@ -1,0 +1,17 @@
+@import "../lib/variables";
+@import "../lib/mixins";
+ 
+
+body {
+  background-color: whitesmoke;
+}
+.wrapper{
+  background-color: gray;
+  border: 2px green;
+  text-align: center;
+  margin: 5px auto;
+}
+.one{
+  background-color: green;
+}
+

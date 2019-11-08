@@ -9,6 +9,8 @@
 @import './core/table';
 @import '/core/responsive-table';
 @import '/core/drawer';
+@import '/core/grid';
+
 
 nav {
   @include nav();
@@ -36,6 +38,12 @@ section {
 div {
   @include drawer();
 }
+
+div {
+  @include grid();
+}
+
+
 
 
 
