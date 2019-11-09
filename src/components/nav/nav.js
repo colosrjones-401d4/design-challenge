@@ -1,9 +1,9 @@
 import React from 'react';
 
-import '../../styles/core/_nav.scss';
+import './nav.scss';
 
 const Nav = props => {
-  return <nav>{props.children}</nav>;
+  return <nav className={props.type}>{props.children}</nav>;
 };
 
 export default Nav;
@@ -13,7 +13,11 @@ Nav.defaultProps = {
     <ul>
       <li>Item 1</li>
       <li>Item 2</li>
-      <li>Item 3</li>
+      <ul>Item 3
+        <li>Nested 1</li>
+        <li>Nested 2</li>
+        <li>Nested 3</li>
+      </ul>
     </ul>,
   ],
 };

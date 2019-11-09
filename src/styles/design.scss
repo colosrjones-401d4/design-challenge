@@ -11,8 +11,6 @@
 @import '/core/drawer';
 @import '/core/grid';
 
-
-
 nav {
   @include nav();
 }
@@ -29,9 +27,6 @@ form {
   @include form();
 }
 
-table {
-  @include table();
-}
 section {
   @include section();
 }
@@ -39,9 +34,6 @@ section {
 div {
   @include drawer();
 }
-
-
-
 
 
 
