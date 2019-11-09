@@ -12,6 +12,7 @@
 @import '/core/grid';
 
 
+
 nav {
   @include nav();
 }
@@ -39,9 +40,8 @@ div {
   @include drawer();
 }
 
-div {
-  @include grid();
-}
+
+
 
 
 
