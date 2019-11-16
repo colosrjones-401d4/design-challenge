@@ -17,7 +17,7 @@ const Table = props => {
   const data = props.data || defaultData;
   return (
     <table className={props.type}>
-      <thead class="container">
+      <thead>
         <tr>
           {data.header &&
             data.header.map((title, i) => <th key={i}>{title}</th>)}
