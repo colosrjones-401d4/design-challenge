@@ -3,6 +3,7 @@
 main {
   .deck {
     .card {
+      width: 250px;
       ul {
         li {
           padding: $space * .5;
@@ -10,11 +11,10 @@ main {
         display: none;
         background-color: $tableHead;
       }
-      min-height: 260px;
       margin-bottom: $space;
       box-sizing: border-box;
-      display: block;
-      border: solid black 1px;
+      display: flex;
+      border: solid darkblue 5px;
     }
     .card:hover {
       ul {
