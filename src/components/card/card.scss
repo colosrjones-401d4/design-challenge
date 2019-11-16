@@ -21,10 +21,10 @@ main {
     .links {
       a {
         display: inline-block;
-        width: 50%;
         padding: $space 0 $space 0;
         text-decoration: none;
-        color: black;
+        color: white;
+        margin: auto;
       }
       a:hover {
         background-color: $accentColor;
