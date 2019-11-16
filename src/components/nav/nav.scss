@@ -1,4 +1,4 @@
-@import '../../styles/lib/variables';
+@import '../../styles//lib/variables';
 
 nav {
     &.horizontal {
@@ -44,7 +44,7 @@ nav {
     &.vertical {
         ul {
             li, ul {
-                display: block;
+                display: inline-block;
                 width: 100px;
                 padding: $space * .5;
                 margin: $space;
@@ -52,6 +52,7 @@ nav {
                 border-radius: 5px;
                 background-color: $rootColor;
                 box-shadow: 1px 1px 5px black;
+                vertical-align: middle;
             }
             li:hover, ul:hover {
                 box-shadow: 2px 2px 10px black;
@@ -62,7 +63,7 @@ nav {
             }
             ul {
                 li {
-                    display: none;
+                    display: incline-block;
                 }
             }
             ul:hover {
@@ -76,7 +77,7 @@ nav {
                     background-color: saddlebrown;
                     color: $rootColor;
                 }
-                display: block;
+                display: inline-block;
             }
         }
     }

@@ -12,16 +12,59 @@ export default Deck;
 
 Deck.defaultProps = {
   children: [
-    <section class="deck">
-    <header><h2>Title</h2></header>
-    <nav>
-        <ul>
-            <li><a href='#card1'>Card 1</a></li>
-            <li><a href='#card2'>Card 2</a></li>
-        </ul>
-    </nav>
-    <div id="card1" class="card">...</div>
-    <div id="card2" class="card">...</div>
-</section>
+    <div className="card">Card
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+    </div>,
+    <div className="card">Card
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+    </div>,
+    <div className="card">Card
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+    </div>,
+    <div className="card">Card
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+    </div>,
+    <div className="card">Card
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+    </div>,
+    <div className="card">Card
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+    </div>,
   ],
 };
